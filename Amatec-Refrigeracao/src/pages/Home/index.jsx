@@ -6,7 +6,7 @@ function Home() {
       <div>
         <Header />
       </div>
-      <div className="">
+      <div className="flex-col justify-center">
         <h1>Marine & Jefson</h1>
       </div>
     </div>
