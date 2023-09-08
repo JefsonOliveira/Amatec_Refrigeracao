@@ -1,14 +1,11 @@
 import Header from "../../components/Header";
+import Carousel from "../../components/Carousel";
 
 function Home() {
   return (
     <div>
-      <div>
-        <Header />
-      </div>
-      <div className="flex-col justify-center">
-        <h1>Marine & Jefson</h1>
-      </div>
+      <Header />
+      <Carousel />
     </div>
   );
 }
