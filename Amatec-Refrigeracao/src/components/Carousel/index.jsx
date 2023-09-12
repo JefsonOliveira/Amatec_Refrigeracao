@@ -1,43 +1,56 @@
 import "../../App";
 import { Swiper, SwiperSlide } from "swiper/react";
 
+// Importa um objeto contendo todas as imagens de manutenção.
+import manutencaoGeladeiraMaquinaImagens from "../../assets/galeriaCarousel/manutencaoGeladeiraMaquina-imagens.jsx";
+
+// Acessa as imagens individualmente.
+const {
+  manutencaoGeladeira1,
+  manutencaoGeladeira2,
+  manutencaoGeladeira3,
+  manutencaoMaquina1,
+  manutencaoMaquina2,
+  manutencaoMaquina3
+} = manutencaoGeladeiraMaquinaImagens
+
 function Carousel() {
   const data = [
     {
       id: "1",
-      image:
-        "https://sujeitoprogramador.com/wp-content/uploads/2022/08/fullstack-blog.png",
+      image: manutencaoGeladeira1,
     },
     {
       id: "2",
-      image:
-        "https://sujeitoprogramador.com/wp-content/uploads/2022/08/home.png",
+      image: manutencaoMaquina1,
     },
     {
       id: "3",
-      image:
-        "https://sujeitoprogramador.com/wp-content/uploads/2022/03/Frame-321.png",
+      image: manutencaoGeladeira2,
     },
     {
       id: "4",
-      image:
-        "https://sujeitoprogramador.com/wp-content/uploads/2022/01/thumb-1.png",
+      image: manutencaoMaquina2,
+    },
+    {
+      id: "5",
+      image: manutencaoGeladeira3,
+    },
+    {
+      id: "6",
+      image: manutencaoMaquina3,
     },
   ];
 
   return (
     <div>
-      <Swiper
-      slidesPerView={1}
-      pagination={{ clickable: true }}
-      navigation
-      >
+      <Swiper slidesPerView={1} pagination={{ clickable: true }} navigation>
         {data.map((item) => (
           <SwiperSlide key={item.id}>
-            <img 
-            src={item.image} 
-            alt="Slider" 
-            className="w-full h-[calc(100vh-72px)]" 
+            <img
+              src={item.image}
+              alt="Slider"
+              className="w-full h-[calc(100vh-72px)]"
             />
           </SwiperSlide>
         ))}
