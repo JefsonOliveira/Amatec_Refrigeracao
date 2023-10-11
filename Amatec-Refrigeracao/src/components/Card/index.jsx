@@ -8,10 +8,11 @@ const {
   LavadouraInox,
   LavadouraClassica,
 } = GeladeiraMaquinaImagens;
+
 function Card() {
   return (
-    <div className="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
-      <div className="mx-3 mt-6 flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+    <div className="grid bg-gray-200 grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <div className="mx-3 mt-6 flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-blue-900 sm:shrink-0 sm:grow sm:basis-0">
         <a href="#!">
           <img
             className="rounded-t-lg w-full h-full"
@@ -21,15 +22,18 @@ function Card() {
         </a>
         <div className="p-6">
           <h5 className="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-            Card title
+            Manutenção Preventica da Geladeira
           </h5>
           <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
+            A chave para uma geladeira sempre funcionando bem é a manutenção
+            preventiva. Limpe as bobinas do condensador regularmente, verifique
+            as vedações da porta e substitua o filtro de água conforme
+            necessário. Isso garante que sua geladeira permaneça eficiente e
+            confiável.
           </p>
         </div>
       </div>
-      <div className="mx-3 mt-6 flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+      <div className="mx-3 mt-6 flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-blue-900 sm:shrink-0 sm:grow sm:basis-0">
         <a href="#!">
           <img
             className="rounded-t-lg w-full h-full"
@@ -39,15 +43,17 @@ function Card() {
         </a>
         <div className="p-6">
           <h5 className="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-            Card title
+            Dicas para Conservação da Geladeira
           </h5>
           <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
+            Mantenha seus alimentos frescos e seguros seguindo algumas dicas
+            simples. Verifique a temperatura regularmente, não sobrecarregue a
+            geladeira e evite obstruir as saídas de ar. Uma geladeira bem
+            conservada é essencial para uma cozinha saudável.
           </p>
         </div>
       </div>
-      <div className="mx-3 mt-6 flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(236, 1, 1, 0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+      <div className="mx-3 mt-6 flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(236, 1, 1, 0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-blue-900 sm:shrink-0 sm:grow sm:basis-0">
         <a href="#!">
           <img
             className="rounded-t-lg w-full h-full"
@@ -57,15 +63,18 @@ function Card() {
         </a>
         <div className="p-6">
           <h5 className="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-            Card title
+            Economia de Energia com Sua Geladeira
           </h5>
           <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content.
+            Quer economizar energia e dinheiro? Certifique-se de que a borracha
+            de vedação da porta esteja em boas condições, ajuste a temperatura
+            para o nível certo e não deixe a porta aberta por muito tempo.
+            Pequenos hábitos podem fazer uma grande diferença na sua conta de
+            energia.
           </p>
         </div>
       </div>
-      <div className="mx-3 mt-6 flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+      <div className="mx-3 mt-6 flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-blue-900 sm:shrink-0 sm:grow sm:basis-0">
         <a href="#!">
           <img
             className="rounded-t-lg w-full h-full"
@@ -75,15 +84,17 @@ function Card() {
         </a>
         <div className="p-6">
           <h5 className="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-            Card title
+            Cuidados Essenciais com Sua Lavadora
           </h5>
           <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
+            Para manter sua lavadora funcionando perfeitamente, verifique
+            periodicamente as mangueiras de água e evite sobrecarregar a
+            máquina. Lembre-se de limpar o filtro regularmente e use produtos de
+            limpeza adequados para evitar o acúmulo de resíduos.
           </p>
         </div>
       </div>
-      <div className="mx-3 mt-6 flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+      <div className="mx-3 mt-6 flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-blue-900 sm:shrink-0 sm:grow sm:basis-0">
         <a href="#!">
           <img
             className="rounded-t-lg w-full h-full"
@@ -93,15 +104,17 @@ function Card() {
         </a>
         <div className="p-6">
           <h5 className="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-            Card title
+            Lavagem Eficiente para Roupas Impecáveis
           </h5>
           <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
+            A qualidade da lavagem de suas roupas depende do cuidado com sua
+            lavadora. Separe roupas por cor e tipo de tecido, use a quantidade
+            certa de detergente e siga as orientações do fabricante. Suas roupas
+            vão agradecer.
           </p>
         </div>
       </div>
-      <div className="mx-3 mt-6 flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-neutral-700 sm:shrink-0 sm:grow sm:basis-0">
+      <div className="mx-3 mt-6 flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-blue-900 sm:shrink-0 sm:grow sm:basis-0">
         <a href="#!">
           <img
             className="rounded-t-lg w-full h-full"
@@ -111,11 +124,13 @@ function Card() {
         </a>
         <div className="p-6">
           <h5 className="mb-2 text-xl font-medium leading-tight text-neutral-800 dark:text-neutral-50">
-            Card title
+            Resolvendo Problemas Comuns na Lavadora
           </h5>
           <p className="mb-4 text-base text-neutral-600 dark:text-neutral-200">
-            This is a longer card with supporting text below as a natural
-            lead-in to additional content. This content is a little bit longer.
+            Às vezes, problemas menores podem afetar o desempenho da sua
+            lavadora. Se você notar vazamentos, ruídos estranhos ou problemas na
+            centrifugação, consulte o manual do proprietário ou chame um de
+            nossos técnico para uma avaliação e reparos.
           </p>
         </div>
       </div>

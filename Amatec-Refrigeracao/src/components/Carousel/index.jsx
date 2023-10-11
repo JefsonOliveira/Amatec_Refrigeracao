@@ -1,18 +1,15 @@
 import "../../App";
 import { Swiper, SwiperSlide } from "swiper/react";
-
-// Importa um objeto contendo todas as imagens de manutenção.
 import manutencaoGeladeiraMaquinaImagens from "../../assets/galeriaCarousel/manutencaoGeladeiraMaquina-imagens.jsx";
 
-// Acessa as imagens individualmente.
 const {
   manutencaoGeladeira1,
-  manutencaoGeladeira2,
-  manutencaoGeladeira3,
   manutencaoMaquina1,
+  manutencaoGeladeira2,
   manutencaoMaquina2,
-  manutencaoMaquina3
-} = manutencaoGeladeiraMaquinaImagens
+  manutencaoGeladeira3,
+  manutencaoMaquina3,
+} = manutencaoGeladeiraMaquinaImagens;
 
 function Carousel() {
   const data = [
@@ -50,7 +47,7 @@ function Carousel() {
             <img
               src={item.image}
               alt="Slider"
-              className="w-full h-[calc(100vh-72px)]"
+              className="w-full h-full md:h-auto max-h-[calc(100vh-72px)]"
             />
           </SwiperSlide>
         ))}
