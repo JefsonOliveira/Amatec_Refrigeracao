@@ -13,9 +13,7 @@ function Body() {
           </p>
         </div>
       </div>
-      <div>
-        
-      </div>
+      <div></div>
     </div>
   );
 }
