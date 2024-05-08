@@ -14,11 +14,11 @@ const {
 
 function Card() {
   return (
-    <div className="grid bg-gray-200 grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+    <div className="grid bg-gray-200 grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3 cursor-default">
       <div className="mx-3 mt-6 flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-blue-900 sm:shrink-0 sm:grow sm:basis-0">
         <a href="#!">
           <img
-            className="rounded-t-lg w-full h-full"
+            className="rounded-t-lg w-full h-full cursor-default"
             src={GeladeiraFechada}
             alt="Hollywood Sign on The Hill"
           />
@@ -39,7 +39,7 @@ function Card() {
       <div className="mx-3 mt-6 flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-blue-900 sm:shrink-0 sm:grow sm:basis-0">
         <a href="#!">
           <img
-            className="rounded-t-lg w-full h-full"
+            className="rounded-t-lg w-full h-full cursor-default"
             src={GeladeiraAberta}
             alt="Palm Springs Road"
           />
@@ -59,7 +59,7 @@ function Card() {
       <div className="mx-3 mt-6 flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(236, 1, 1, 0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-blue-900 sm:shrink-0 sm:grow sm:basis-0">
         <a href="#!">
           <img
-            className="rounded-t-lg w-full h-full"
+            className="rounded-t-lg w-full h-full cursor-default"
             src={GeladeiraEntreAberta}
             alt="Skyscrapers"
           />
@@ -80,7 +80,7 @@ function Card() {
       <div className="mx-3 mt-6 flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-blue-900 sm:shrink-0 sm:grow sm:basis-0">
         <a href="#!">
           <img
-            className="rounded-t-lg w-full h-full"
+            className="rounded-t-lg w-full h-full cursor-default"
             src={LavadouraBranca}
             alt="Los Angeles Skyscrapers"
           />
@@ -100,7 +100,7 @@ function Card() {
       <div className="mx-3 mt-6 flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-blue-900 sm:shrink-0 sm:grow sm:basis-0">
         <a href="#!">
           <img
-            className="rounded-t-lg w-full h-full"
+            className="rounded-t-lg w-full h-full cursor-default"
             src={LavadouraInox}
             alt="Los Angeles Skyscrapers"
           />
@@ -120,7 +120,7 @@ function Card() {
       <div className="mx-3 mt-6 flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-blue-900 sm:shrink-0 sm:grow sm:basis-0">
         <a href="#!">
           <img
-            className="rounded-t-lg w-full h-full"
+            className="rounded-t-lg w-full h-full cursor-default"
             src={LavadouraClassica}
             alt="Los Angeles Skyscrapers"
           />
@@ -140,7 +140,7 @@ function Card() {
       <div className="mx-3 mt-6 flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-blue-900 sm:shrink-0 sm:grow sm:basis-0">
         <a href="#!">
           <img
-            className="rounded-t-lg w-full h-full"
+            className="rounded-t-lg w-full h-full cursor-default"
             src={MaquinaBrastemp}
             alt="Los Angeles Skyscrapers"
           />
@@ -161,7 +161,7 @@ function Card() {
       <div className="mx-3 mt-6 flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-blue-900 sm:shrink-0 sm:grow sm:basis-0">
         <a href="#!">
           <img
-            className="rounded-t-lg w-full h-full"
+            className="rounded-t-lg w-full h-full cursor-default"
             src={MaquinaEletrolux}
             alt="Los Angeles Skyscrapers"
           />
@@ -182,7 +182,7 @@ function Card() {
       <div className="mx-3 mt-6 flex flex-col rounded-lg bg-white shadow-[0_2px_15px_-3px_rgba(0,0,0,0.07),0_10px_20px_-2px_rgba(0,0,0,0.04)] dark:bg-blue-900 sm:shrink-0 sm:grow sm:basis-0">
         <a href="#!">
           <img
-            className="rounded-t-lg w-full h-full"
+            className="rounded-t-lg w-full h-full cursor-default"
             src={MaquinaPanasonic}
             alt="Los Angeles Skyscrapers"
           />

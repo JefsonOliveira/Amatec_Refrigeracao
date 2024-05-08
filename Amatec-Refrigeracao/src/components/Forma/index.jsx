@@ -14,7 +14,6 @@ function Forma() {
           </p>
         </div>
       </div>
-      <div></div>
     </div>
   );
 }

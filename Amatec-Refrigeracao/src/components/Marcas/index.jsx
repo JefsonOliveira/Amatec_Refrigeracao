@@ -1,19 +1,22 @@
 import MarcasLogo from "../../assets/galeriaMarcas/Macas-imagens";
 
+// Caso seja necessario acrescentar novos logos, requer que sejam inseridas as 
+// imagens(logo) o aumentado o lg:grid-cols-(quantidade de logos)
+
 const {
   BrastempLogo,
   ColormaqLogo,
   ConsulLogo,
   ContinentalLogo,
   ElectroluxLogo,
-  LGLogo,
-  PanasonicLogo,
+  // LGLogo,
+  // PanasonicLogo,
   SamsungLogo,
 } = MarcasLogo;
 
 function Marcas() {
   return (
-    <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-8 gap-4 p-1">
+    <div className="grid grid-cols-2 md:grid-cols-4 lg:grid-cols-6 gap-4 p-1 cursor-none">
       <div className="flex items-center justify-center">
         <img src={BrastempLogo} alt="Logo Brastemp" style={{ width: '100px', height: '100px' }} />
       </div>
@@ -29,12 +32,12 @@ function Marcas() {
       <div className="flex items-center justify-center">
         <img src={ElectroluxLogo} alt="Logo Electrolux" className="max-w-full h-auto" />
       </div>
-      <div className="flex items-center justify-center">
+      {/* <div className="flex items-center justify-center">
         <img src={LGLogo} alt="Logo LG" className="max-w-full h-auto" />
       </div>
       <div className="flex items-center justify-center">
         <img src={PanasonicLogo} alt="Logo Panasonic" className="max-w-full h-auto" />
-      </div>
+      </div> */}
       <div className="flex items-center justify-center">
         <img src={SamsungLogo} alt="Logo Samsung" className="max-w-full h-auto" />
       </div>
