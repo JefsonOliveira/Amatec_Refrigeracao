@@ -1,5 +1,6 @@
 import Logo from "../../assets/logo/amatec1.png";
 import SSL from "../../assets/SSL/ssl.png";
+// import GitHub from "../../assets/social/github.png";
 import Instagram from "../../assets/social/instagram.png";
 import Whatsapp from "../../assets/social/whatsapp.png";
 import Facebook from "../../assets/social/facebook.png";
@@ -75,8 +76,24 @@ function Footer() {
                   url="https://cutt.ly/Amatec-Refrigeracao-Site"
                   icon={Whatsapp}
                 />
-                <SocialLink url="https://www.facebook.com/share/W966RPLLmokP8Nxg/?mibextid=LQQJ4d" icon={Facebook} />
+                <SocialLink
+                  url="https://www.facebook.com/share/W966RPLLmokP8Nxg/?mibextid=LQQJ4d"
+                  icon={Facebook}
+                />
               </div>
+            </div>
+            <div className="text-gray-500 dark:text-gray-400 font-medium cursor-pointer">
+              <h2 className="mb-6 text-sm font-semibold text-gray-900 uppercase dark:text-white">
+                Desenvolvimento
+              </h2>
+              <a
+                onClick={() =>
+                  handleLinkClick("https://github.com/JefsonOliveira")
+                }
+                className="hover:underline"
+              >
+                Jefson Oliveira
+              </a>
             </div>
             <div className="md:w-3/4 md:flex md:items-center md:justify-center ml-auto">
               <div className="grid grid-cols-1 sm:grid-cols-2 gap-8 sm:gap-6">
@@ -133,17 +150,9 @@ function Footer() {
           </div>
           <hr className="my-2 border-t border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-3" />
           <div className="flex items-center justify-center">
-            <ul className="text-sm text-gray-500 dark:text-gray-400 font-medium cursor-pointer">
+            <ul className="text-sm text-gray-500 dark:text-gray-400 font-medium">
               <li className="mb-4">
-                &copy; 2024{" "}
-                <a
-                  onClick={() =>
-                    handleLinkClick("https://github.com/JefsonOliveira")
-                  }
-                  className="cursor-pointer hover:underline"
-                >
-                  JefsonOliveira -
-                </a>
+                &copy; 2024 <a>Amatec Refrigeração -</a>
                 Todos os direitos reservados.
               </li>
             </ul>
