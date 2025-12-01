@@ -69,15 +69,15 @@ function Footer() {
                   className="w-10 h-10 md:w-12 md:h-12 mr-2"
                 />
                 <SocialLink
-                  url="https://www.instagram.com/amatec_refrigeracao_am/"
+                  // url="https://www.instagram.com/amatec_refrigeracao_am/"
                   icon={Instagram}
                 />
                 <SocialLink
-                  url="https://cutt.ly/Amatec-Refrigeracao-Site"
+                  // url="https://cutt.ly/Amatec-Refrigeracao-Site"
                   icon={Whatsapp}
                 />
                 <SocialLink
-                  url="https://www.facebook.com/share/W966RPLLmokP8Nxg/?mibextid=LQQJ4d"
+                  // url="https://www.facebook.com/share/W966RPLLmokP8Nxg/?mibextid=LQQJ4d"
                   icon={Facebook}
                 />
               </div>
@@ -88,7 +88,7 @@ function Footer() {
               </h2>
               <a
                 onClick={() =>
-                  handleLinkClick("https://github.com/JefsonOliveira")
+                  handleLinkClick("https://jefsonoliveira.com.br/")
                 }
                 className="hover:underline"
               >
@@ -104,26 +104,27 @@ function Footer() {
                   <ul className="text-gray-500 dark:text-gray-400 font-medium cursor-pointer">
                     <li className="mb-4">
                       <a
-                        onClick={() =>
-                          handleLinkClick(
-                            "https://maps.app.goo.gl/75QFrEHrAFwLD9xb6"
-                          )
-                        }
+                        // onClick={() =>
+                        //   handleLinkClick(
+                        //     "https://maps.app.goo.gl/75QFrEHrAFwLD9xb6"
+                        //   )
+                        // }
                         className="hover:underline"
                       >
-                        Rua 14 nº.100 - Hileia - Manaus - AM
+                        {/* Rua 14 nº.100 - Hileia - Manaus - AM */}
+                        Rua 00 nº.000 - Bairro - Cidade - OO
                       </a>
                     </li>
                   </ul>
                   <div style={{ marginRight: "10px" }}>
-                    <iframe
+                    {/* <iframe
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3984.1623544437125!2d-60.03667720000001!3d-3.0511655999999996!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x926c114513decead%3A0x493670584f46b2d1!2zQW1hdGVjIFJlZnJpZ2VyYcOnw6Nv!5e0!3m2!1spt-BR!2sbr!4v1715090327864!5m2!1spt-BR!2sbr"
                       width="264"
                       height="150"
                       allowfullscreen=""
                       loading="lazy"
                       // referrerpolicy="no-referrer-when-downgrade"
-                    ></iframe>
+                    ></iframe> */}
                   </div>
                 </div>
                 <div>
@@ -133,14 +134,15 @@ function Footer() {
                   <ul className="text-gray-500 dark:text-gray-400 font-medium cursor-pointer">
                     <li className="mb-4">
                       <a
-                        onClick={() =>
-                          handleLinkClick(
-                            "https://cutt.ly/Amatec-Refrigeracao-Site"
-                          )
-                        }
+                        // onClick={() =>
+                        //   handleLinkClick(
+                        //     "https://cutt.ly/Amatec-Refrigeracao-Site"
+                        //   )
+                        // }
                         className="hover:underline"
                       >
-                        (92) 99118-9889 - WhatsApp
+                        {/* (92) 99118-9889 - WhatsApp */}
+                        (00) 00000-0000 - WhatsApp
                       </a>
                     </li>
                   </ul>

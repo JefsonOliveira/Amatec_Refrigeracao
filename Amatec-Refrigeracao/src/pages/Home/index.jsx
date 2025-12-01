@@ -13,9 +13,10 @@ function Home() {
   const [open, SetOpen] = useState(false);
 
   //Função para abrir o link em uma nova janela.
-  const handleLinkClick = (url) => {
-    window.open(url, "_blank");
-  };
+  
+  // const handleLinkClick = (url) => {
+  //   window.open(url, "_blank");
+  // };
 
   const [loading, setLoading] = useState(true);
 
@@ -91,9 +92,9 @@ function Home() {
                   </li>
                   <li>
                     <a
-                      onClick={() =>
-                        handleLinkClick("https://cutt.ly/Amatec-Refrigeracao-Site")
-                      }
+                      // onClick={() =>
+                      //   handleLinkClick("https://cutt.ly/Amatec-Refrigeracao-Site")
+                      // }
                       className="cursor-pointer block py-2 px-3 text-gray-900 rounded hover:bg-blue-700 md:hover:bg-transparent md:hover:text-blue-700 md:p-0 dark:text-white md:dark:hover:text-blue-500 dark:hover:bg-gray-700 dark:hover:text-white md:dark:hover:bg-transparent dark:border-gray-700"
                     >
                       Entre em Contato
@@ -139,9 +140,9 @@ function Home() {
           </div>
           <Marcas />
           <div
-            onClick={() =>
-              handleLinkClick("https://cutt.ly/Amatec-Refrigeracao-Site")
-            }
+            // onClick={() =>
+            //   handleLinkClick("https://cutt.ly/Amatec-Refrigeracao-Site")
+            // }
             className="cursor-pointer hover:underline"
           >
             <img
