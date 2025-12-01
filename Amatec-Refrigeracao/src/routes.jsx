@@ -9,7 +9,7 @@ const router = createBrowserRouter(
     },
   ],
   {
-    basename: "/Amatec-Refrigeracao",
+    basename: "/Amatec_Refrigeracao",
   }
 );
 
