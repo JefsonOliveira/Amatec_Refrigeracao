@@ -11,12 +11,6 @@ Sistema web desenvolvido para promover serviços de assistência técnica em ref
 
 ## 🛠️ Como Rodar o Projeto
 
-### 🔧 Pré-requisitos
-- Node.js instalado  
-- (Opcional) Docker e Docker Compose  
-- Git  
-- Editor (VS Code recomendado)
-
 ### ▶️ Rodar Localmente
 
 ```bash
