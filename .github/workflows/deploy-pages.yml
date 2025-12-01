@@ -2,7 +2,8 @@ name: Deploy Amatec to GitHub Pages
 
 on:
   push:
-    branches: [ main ]
+    branches:
+      - main
   workflow_dispatch:
 
 permissions:
@@ -25,7 +26,7 @@ jobs:
         uses: actions/setup-node@v4
         with:
           node-version: 20
-          cache: 'npm'
+          cache: npm
 
       - name: Install dependencies
         working-directory: ./Amatec-Refrigeracao
@@ -45,8 +46,7 @@ jobs:
     runs-on: ubuntu-latest
     environment:
       name: github-pages
-      url: ${{ steps.deployment.outputs.page_url }}
     steps:
       - name: Deploy to GitHub Pages
-      id: deployment
-      uses: actions/deploy-pages@v4
+        id: deployment
+        uses: actions/deploy-pages@v4
